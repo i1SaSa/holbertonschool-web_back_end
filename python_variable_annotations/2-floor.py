@@ -3,7 +3,7 @@
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> floor:
     '''
     for switch float to floor
     @n: float number
