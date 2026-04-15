@@ -2,7 +2,7 @@
 '''module return summation of a list'''
 
 
-def sum_list(input_list: list) -> float:
+def sum_list(input_list: list[float]) -> float:
     ''' 
     take a list and return their sum
     @input_list: the list
