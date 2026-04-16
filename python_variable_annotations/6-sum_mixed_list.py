@@ -3,7 +3,7 @@
 from typing import List
 
 
-def sum_mixed_list(mxd_lst: List[int, float]) -> float:
+def sum_mixed_list(mxd_lst: List[float | int]) -> float:
     '''
     func that return the summation of
     '''
