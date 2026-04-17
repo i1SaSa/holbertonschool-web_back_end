@@ -5,5 +5,5 @@ from random import uniform
 
 async def wait_random(max_delay=10):
     delay = uniform(0, max_delay)
-    await delay
+    await asyncio.sleep(delay)
     return delay
