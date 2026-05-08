@@ -1,4 +1,4 @@
 export default function returnHowManyArguments(...arg) {
-	return length(arg)
+	return arg.length
 
 }
