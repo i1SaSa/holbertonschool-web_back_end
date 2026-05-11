@@ -6,6 +6,6 @@ export default function getStudentsByLocation(Student, city) {
 	}
 
 
-	return Student.filter(city)
+	return Student.filter((student) => (student.location == city))
 
 }
